@@ -31,15 +31,17 @@
 </head>
 
 <body>
-    <header class="w-full h-20 flex items-center bg-white absolute">
-        <nav class="w-11/12 h-full flex items-center justify-between my-0 mx-auto font-bebas ">
-            <h1 class="text-4xl">Jaka Naka Production</h1>
-            <ul class="gap-x-5 text-2xl hidden md:flex lg:flex">
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-            </ul>
-        </nav>
+    <header class="w-full h-20 flex items-center bg-white absolute ">
+        <div class="w-11/12 my-0 mx-auto">
+            <nav class="w-11/12 h-full flex items-center justify-between my-0 mx-auto font-bebas ">
+                <h1 class="text-4xl">Jaka Naka Production</h1>
+                <ul class="gap-x-5 text-2xl hidden md:flex lg:flex">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="bg-[url('./images/banner.jpg')] h-screen bg-cover bg-center flex items-center">
         <div class="ml-20 font-bebas text-white">
@@ -52,7 +54,7 @@
 
 
     <main class="pt-10">
-        <section class="w-11/12 my-0 mx-auto">
+        <section class="w-11/12 my-0 mx-auto pb-10">
             <div class="border-2 p-8 ">
                 <div class="flex flex-col gap-x-14 xl:flex-row 2xl:flex-row lg:flex-row">
                     <div class="w-full xl:w-3/6 2xl:w-3/6 flex items-center flex-col  relative">
@@ -86,11 +88,85 @@
                 </div>
             </div>
 
-
         </section>
+        <section class="bg-gray py-10">
 
+            <div class="flex justify-between items-center py-10 w-11/12 my-0 mx-auto">
+                <div class="font-bebas text-white">
+                    <p>our movies</p>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-5xl">movie collection</h1>
+                </div>
+                <div>
+                    <button class="hover:bg-yellow hover:text-black transition-all hover:border-yellow border-2  text-white border-white px-6 py-2 text-[19px] mt-4"><a href="" class="no-underline font-bebas">See More Movies</a></button>
+                </div>
+            </div>
+            <div class="w-11/12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 my-0 mx-auto gap-5">
+                <div class="flex justify-center">
+                    <img src="./images/inception.jpg" alt="" class="border-2 border-white p-3">
+                </div>
+                <div class="flex justify-center">
+                    <img src="./images/resizedImage.png" alt="" class="border-2 border-white p-3">
 
+                </div>
+                <div class="flex justify-center">
+                    <img src="./images/tenet.jpg" alt="" class="border-2 border-white p-3">
+                </div>
+                <div class="flex justify-center">
+                    <img src="./images/fractured.jpg" alt="" class="border-2 border-white p-3">
+                </div>
+            </div>
+        </section>
     </main>
+
+    <section class="py-20">
+        <div class="text-center font-bebas pb-16">
+            <span class="uppercase">services</span>
+            <h1 class="font-bebas text-7xl">what we offer</h1>
+        </div>
+        <div class="grid grid-cols-1 grid-rows-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-10 w-11/12 mx-auto my-0">
+            <div class="border-2 border-gray text-center p-4">
+                <img src="./images/icons/camera.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">Movie Direction</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/3d-glasss.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">3d movies</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/film.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">film maker</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/rim.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">studio production</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/camera.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">Movie Direction</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/director-chair.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">rolling production</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/cut-board.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">Movie production</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-gray p-4 text-center">
+                <img src="./images/icons/count-down.png" alt="" class="h-[70px] w-[70px] inline-block">
+                <h4 class="my-3 font-bebas text-[19px] uppercase">actor action</h4>
+                <p class="text-[19px]">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+
+        </div>
+    </section>>
 </body>
 
 </html>
